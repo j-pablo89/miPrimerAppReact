@@ -1,4 +1,5 @@
 import "./App.css";
+import Contador from "./components/Contador";
 import Lista from "./components/Lista";
 import Titulos from "./components/Titulos";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,13 +12,14 @@ function App() {
   //<> es un fragment
   <>
     {/* esto es un comentario del html */}
-    {/* <Titulos></Titulos> */}
-    <Titulos/>
+    <Titulos></Titulos>
     <section className="container">
       <h3>Servicios</h3>
       <hr/>
-      <Lista/>
+    <Lista></Lista>
+    <Contador></Contador>
     </section>
+    {/* <Titulos/> */}
   </>
   );
 }
